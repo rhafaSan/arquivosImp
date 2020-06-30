@@ -6,6 +6,8 @@ import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 
 import Suggestions from '../../components/Suggestions'
 import Activities from '../../components/Activities'
+import Tips from '../../components/Tips '
+import Banner from '../../components/Banner'
 
 
  export default function Home(){
@@ -19,14 +21,14 @@ import Activities from '../../components/Activities'
                 <BalanceTitle>Meu Saldo</BalanceTitle>
                 <Balance>R$ 0,00</Balance>
             </BalanceContainer>
-
             <AntDesign name="gift" size={30} color="#10c68e" />
-
             </Header>
-
             <Suggestions />
-
             <Activities />
+
+            <Tips />
+
+            <Banner />
 
             </Container>
         </Wrapper>
